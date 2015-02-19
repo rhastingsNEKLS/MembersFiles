@@ -1,0 +1,66 @@
+body{
+	font: normal normal 110% Arial, Serif;
+}
+	
+.customBtn {
+	cursor:pointer;
+	margin:0 .3em 0 0;
+	-moz-box-shadow:inset 0px 1px 0px 0px #294555;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #294555;
+	box-shadow:inset 0px 1px 0px 0px #294555;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #294555), color-stop(1, #567cb1) );
+	background:-moz-linear-gradient( center top, #294555 5%, #567cb1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#294555', endColorstr='#567cb1');
+	background-color:#567cb1;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #567cb1;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	/*text-shadow:1px 1px 0px #f1f1f1;*/
+}
+
+.customBtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+	background-color:#5cb811;
+}
+
+.customBtn:active {
+	position:relative;
+	top:1px;
+}
+
+input[type=text],
+input[type=password]{
+	padding:.5em;
+}
+
+table.tftable {font-size:12px;color:#333333;width:50%;border-width: 1px;border-color: #a9a9a9;border-collapse: collapse;}
+table.tftable th {font-size:12px;background-color:#b8b8b8;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:left;}
+table.tftable tr {background-color:#ffffff;}
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;}
+#tableview tr, td {border-bottom: thin solid black;}
+
+.userId{
+	display:none;
+}
+
+#viewUsers,
+#addUser, 
+#addLib,
+#viewLibs {
+	float:left;
+}
+
+#loaderImage{
+	float:left;
+	line-height:32px;
+}
