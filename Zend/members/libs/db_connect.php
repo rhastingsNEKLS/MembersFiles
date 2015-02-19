@@ -2,7 +2,7 @@
 $host = "localhost";
 $db_name = "neklsdata";
 $username = "root";
-$password = "\$up3rN0va!";
+$password = "obfuscated";
 
 try {
 	$con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
