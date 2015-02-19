@@ -1,5 +1,5 @@
 // connect to db
-$link = mysql_connect('localhost', 'root', '$up3rN0va!');
+$link = mysql_connect('localhost', 'root', 'obfuscated');
 if (!$link) {
     die('Not connected : ' . mysql_error());
 }
